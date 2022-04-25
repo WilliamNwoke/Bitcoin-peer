@@ -12,7 +12,7 @@ Connects to an active BitCoin Peer, and locates a predetermined block number (he
 
 3. Run the program
 ```
-  python3 lab5.py
+  python3 Bitcoin-BlockFinder.py 
 ```
 
 4. (Optional) Edit global variables to change block lookup number in lab5.py
