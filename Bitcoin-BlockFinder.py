@@ -1,16 +1,11 @@
 '''
-Acknowledgement: This program was developed using code stubs and code provided
-in class developed by Professor Kevin Lundeen. Uncommented methods for
-interpretation and conversion of endianness were provided and authored by
-Professor Brian Daughtery and Professor Kevin Laundeen.
+Acknowledgements: Helper functions provided from From line 48 to Line 92 (Professor Brian Daughety)
+
 
 CPSC 5520, Seattle University
 This is free and unencumbered software released into the public domain.
 :Author: Uchenna Nwoke
 :Implemented: Fall Quarter 2021
-
-Extra Credit: Implemented the first part of interpreting the transaction message
-for my block. Got the block header and number of transactions.
 '''
 
 
@@ -348,7 +343,7 @@ class Lab5(object):
 
     def create_version_message(self,peer_address,cmd):
         """
-        Function to create a version message. After a he
+        Function to create a version message. After a header
         """
         version = int32_t(70015)
 
